@@ -1,3 +1,11 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -169,6 +177,8 @@ nav {
 nav h1 {
   font-size: 48px;
   padding: 10px;
+  animation-name: fadein;
+  animation-duration: 5s;
 }
 nav .links {
   max-width: 800px;
