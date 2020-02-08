@@ -180,6 +180,11 @@ nav .links {
 nav .links a {
   font-size: 18px;
 }
+@media (max-width: 500px) {
+  nav img {
+    max-width: 500px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
