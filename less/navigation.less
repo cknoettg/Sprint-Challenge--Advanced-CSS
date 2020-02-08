@@ -1,9 +1,19 @@
 // Navigation code here
 nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+    position: fixed;
+    top: 0;
+    //left: 0;
+    //z-index: 9999;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: lightgrey;
+    opacity: 0.75;
 
     h1 {
         font-size: 48px;
@@ -18,8 +28,9 @@ nav {
         max-width: 800px;
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 10px;
+        margin: 0px auto;
 
         a{
             font-size: 18px;
